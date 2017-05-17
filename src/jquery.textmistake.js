@@ -358,6 +358,7 @@
 
         $.ajax({
           type: 'POST',
+          dataType: 'json',
           url: apiUrl,
           data: mailData
         }).done(function (response) {
